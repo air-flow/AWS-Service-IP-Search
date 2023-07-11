@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	get_url_info, err := goquery.NewDocument("検索したいURL")
+	get_url_info, err := goquery.NewDocument("https://ip-ranges.amazonaws.com/ip-ranges.json")
 	if err != nil {
 		fmt.Println("get html NG")
 	}
@@ -17,3 +17,4 @@ func main() {
 		fmt.Println(s.Text())
 	})
 }
+// 
