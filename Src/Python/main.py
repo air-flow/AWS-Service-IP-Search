@@ -31,7 +31,7 @@ def CheckIpRange(ip_ranges, search_ip):
 
 
 if __name__ == "__main__":
-    search_ip = "15.230.105.56"
+    search_ip = "18.179.156.60"
     ip_ranges = GetAwsIpList()
     # print(SelectionIpType(ip_ranges))
     CheckIpRange(SelectionIpType(ip_ranges), search_ip)
